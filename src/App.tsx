@@ -43,7 +43,7 @@ const StarSmooth = ({
   );
 };
 
-const StarMD = ({
+const StarMedium = ({
   color = '#8B8B8B',
   size = '24',
   fillPercentage = 30,
@@ -154,7 +154,9 @@ const StarsRating = ({
         <StarSmooth key={index} fillPercentage={fillPercentage} {...props} />
       );
     }
-    return <StarMD key={index} fillPercentage={fillPercentage} {...props} />;
+    return (
+      <StarMedium key={index} fillPercentage={fillPercentage} {...props} />
+    );
   });
 
   return <>{stars}</>;
