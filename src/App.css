@@ -1,0 +1,32 @@
+.container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  max-width: 400px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.2);
+  display: flex;
+  gap: 1rem
+}
+
+.img-prod {
+  width: 100%;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infos button {
+  border: none;
+  background: #325;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+}
